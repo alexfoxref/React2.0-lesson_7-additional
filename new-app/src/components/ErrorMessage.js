@@ -6,7 +6,7 @@ const ErrorMessage = () => {
     return (
         // фрагмент
         <>
-            <img src={img} alt="error"></img>
+            <img className="errorMessage" src={img} alt="error" width="500" height="500"></img>
         </>
     )
 }

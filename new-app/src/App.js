@@ -17,6 +17,12 @@ const StyledBlock = styled.div`
     align-self: center;
     margin-bottom: 50px;
   }
+
+  .errorMessage {
+    width: 500px;
+    height: 500px;
+    align-self: center;
+  }
 `;
 
 const App = () => {
